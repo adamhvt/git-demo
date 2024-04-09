@@ -41,14 +41,14 @@ Staging is where you prepare and organise changes before committing them to the 
 **Conflict:**\
 A conflict occurs when Git cannot automatically resolve some differences between branches when attempting to merge those branches.
 
-# Workflow
-1. Make changes
+# Making Changes
+1. File changes
 2. Stage changes
 3. Commit changes (to local branch)
 4. Push commits (to remote/origin branch)
 
-# Examples for reverting/undoing changes
-1. Discarding: Changes that have not been committed can be discarded
-2. Unstage: Changes that have been staged can be unstaged (and discarded)
-3. Reverting commit: Reverting a commit will create a new commit that reverses the changes made in the selected commit.
-4. Reset branch head: A branch's head can be moved back to a previous commit. Commits *after* the head will not be pushed to the remote branch.
+# Undoing Changes
+1. **Discard changes:** Changes that have not been committed can be discarded
+2. **Unstage changes:** Changes that have been staged can be unstaged (and discarded)
+3. **Revert commit:** Reverting a commit will create a new commit that reverses the changes made in the selected commit.
+4. **Reset branch head:** A branch's head can be moved back to a previous commit. Commits *after* the head will not be pushed to the remote branch.
